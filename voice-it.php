@@ -4,13 +4,15 @@ Plugin Name: voice-it
 Plugin Script: voice-it
 Plugin URI: http://www.voice-it.biz/
 Description: Voice-it allows you to record voice messages from your website and send them to you as mp3 email attachments. Voice-it is free and easy to install!
-Version: 0.1
+Version: 2.0
 Author: Kumbe s.r.l.
 Author URI: http://www.kumbe.it
 Template by: http://web.forret.com/tools/wp-plugin.asp
 
 === RELEASE NOTES ===
 2009-08-31 - v1.0 - first version
+2009-09-02 - v2.0 - checked compatibiluty with newest version
+
 */
 
 // uncomment next line if you need functions in external PHP script;

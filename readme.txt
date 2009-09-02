@@ -3,8 +3,8 @@ Contributors: voice-it
 Donate link: http://www.voice-it.biz
 Tags: voice,mp3,audio,feedback,audio comment,audio post,voice comment
 Requires at least: 2.0
-Tested up to: 2.1
-Stable tag: 1.0
+Tested up to: 2.8.4
+Stable tag: 2.0
 
 Voice-it allows you to record voice messages and send it to you or your friends by mail as mp3 attachments.
 
@@ -65,3 +65,5 @@ Screenshots,video and demo are available at [Voice-it](http://www.voice-it.biz/h
 
 = 1.0 =
 * Released the firs stable version.
+= 2.0 =
+* checked compatibility with version 2.8.4
