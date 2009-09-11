@@ -32,7 +32,7 @@ $voice_it_settings=array(
 	"leave_a_message"=>addslashes("Leave a voice comment"),
 	"listen_a_message"=>addslashes("Listen the voice comment"),
 	"download_a_message"=>addslashes("download and share"),
-	"listen_a_message_or"=>addslashes("Listen an audio comment or"),
+	"listen_a_message_or"=>addslashes("Listen an audio comment or "),
 	"info_after_message"=>addslashes("You can save your comment, if you want you can add some more text, but be careful to don't remove or change [voice_it]....[/voice_it] tags"),
 	);
 	
