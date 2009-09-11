@@ -4,7 +4,7 @@ Donate link: http://www.voice-it.biz
 Tags: voice,mp3,audio,feedback,audio comment,audio post,voice comment
 Requires at least: 2.0
 Tested up to: 2.8.4
-Stable tag: 3.0
+Stable tag: 3.2
 
 Voice-it allows you to record voice comments related to your blog and listen them directly into your blog.
 
@@ -45,16 +45,12 @@ https://wordpress.test.foo/ became -> wordpress.test.foo
 
 == Installation ==
 
-Fro version 3.0 and newest
-   1. download the plugin from [Voice-it plugin](http://www.voice-it.biz/wordpress "Voice-it plugin")
-   2. unzip the file voice-it.zip into the folder (your_wordpress_dir)/wp-content/plugins/
-   3. go into wordpress admin area menu plugin -> select voice-it and activate it
-   4. if you want to customize the language or simply change some labels, you can open the plugin using the editor (or edit the file voice-it.php) and there you find
+= version 3.0 and newest = 
+* download the plugin from [Voice-it plugin](http://www.voice-it.biz/wordpress "Voice-it plugin")
+* unzip the file voice-it.zip into the folder (your_wordpress_dir)/wp-content/plugins/
+* go into wordpress admin area menu plugin -> select voice-it and activate it
+* if you want to customize the language or simply change some labels, you can open the plugin using the editor (or edit the file voice-it.php) and there you find
    
-   /**********************************************************/
-   /**************   HERE YOU CAN CUSTOMIZE  *****************/
-   /**********************************************************/
-
 $voice_it_settings=array(
 	"language"=>"en-EN",
 	"leave_a_message"=>addslashes("Leave a voice comment"),
@@ -64,9 +60,6 @@ $voice_it_settings=array(
 	"info_after_message"=>addslashes("You can save your comment, if you want you can add some more text, but be careful to don't remove or change [voice_it]....[/voice_it] tags"),
 	);
 	
-	/**********************************************************/
-	/**************   HERE YOU CAN CUSTOMIZE  *****************/
-	/**********************************************************/
 	
 	You can add your changes, supported languages are  en-EN, it-IT, es-ES
 	
@@ -82,11 +75,11 @@ http://www.miosito.com/wordpress.php became -> www.miosito.com
 
 https://wordpress.test.foo/ became -> wordpress.test.foo 
 
-For version 2.0 and older
-   1. download the plugin from [Voice-it plugin](http://www.voice-it.biz/wordpress "Voice-it plugin")
-   2. unzip the file voice-it.zip into the folder (your_wordpress_dir)/wp-content/plugins/
-   3. go into wordpress admin area menu plugin -> select voice-it and activate it
-   4. put the following code into your template where you want:
+= version 2.0 and older = 
+* download the plugin from [Voice-it plugin](http://www.voice-it.biz/wordpress "Voice-it plugin")
+* unzip the file voice-it.zip into the folder (your_wordpress_dir)/wp-content/plugins/
+* go into wordpress admin area menu plugin -> select voice-it and activate it
+* put the following code into your template where you want:
 
 echo voice\_it\_showhtml("en-EN");
 
@@ -124,4 +117,7 @@ Screenshots,video and demo are available at [Voice-it](http://www.voice-it.biz/h
 * added the possibility to add voice comments to all comments in your blog !!!!!
 * added support for en-EN, it-IT, es-ES
 * added the possibility to customize some labels
-
+= 3.1 =
+* default label listen_a_message_or changed 
+= 3.2 =
+* some updates at the readme.txt
