@@ -4,7 +4,7 @@ Donate link: http://www.voice-it.biz
 Tags: voice,mp3,audio,feedback,audio comment,audio post,voice comment
 Requires at least: 2.0
 Tested up to: 2.8.4
-Stable tag: 3.1
+Stable tag: 3.2
 
 Voice-it allows you to record voice comments related to your blog and listen them directly into your blog.
 
@@ -119,3 +119,5 @@ Screenshots,video and demo are available at [Voice-it](http://www.voice-it.biz/h
 * added the possibility to customize some labels
 = 3.1 =
 * default label listen_a_message_or changed 
+= 3.2 =
+* some updates at the readme.txt
