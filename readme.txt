@@ -4,13 +4,14 @@ Donate link: http://www.voice-it.biz
 Tags: voice,mp3,audio,feedback,audio comment,audio post,voice comment
 Requires at least: 2.0
 Tested up to: 2.8.4
-Stable tag: 2.0
+Stable tag: 3.0
 
-Voice-it allows you to record voice messages and send it to you or your friends by mail as mp3 attachments.
+Voice-it allows you to record voice comments related to your blog and listen them directly into your blog.
 
 == Description ==
 
-Voice-it allows you to record voice messages and send it to you or your friends by mail as mp3 attachments.
+Voice-it allows you to record voice comments related to your blog and listen them directly into your blog.
+It's also possible to record voice messages and send it to you or your friends by mail as mp3 attachments.
 You can use it in your website, on facebook or download the widget for other platform.
 Try it and send us your message, or send a voice messages to your friend! Isn't easy?
 
@@ -30,9 +31,58 @@ Possible usage:
     * voicemail from your website
     * support archive ticket
 
+Activation
+
+To have a working copy of the voice-it plugin you have to go to [Voice-it](http://www.voice-it.biz/homepage "Voice-it web site") , and register a new user using your website hostname.
+
+Be careful, the name of the host must bu without / and any http as without any file name.
+
+To help you here there are some examples:
+
+http://www.miosito.com/wordpress.php became -> www.miosito.com
+
+https://wordpress.test.foo/ became -> wordpress.test.foo 
 
 == Installation ==
 
+Fro version 3.0 and newest
+   1. download the plugin from [Voice-it plugin](http://www.voice-it.biz/wordpress "Voice-it plugin")
+   2. unzip the file voice-it.zip into the folder (your_wordpress_dir)/wp-content/plugins/
+   3. go into wordpress admin area menu plugin -> select voice-it and activate it
+   4. if you want to customize the language or simply change some labels, you can open the plugin using the editor (or edit the file voice-it.php) and there you find
+   
+   /**********************************************************/
+   /**************   HERE YOU CAN CUSTOMIZE  *****************/
+   /**********************************************************/
+
+$voice_it_settings=array(
+	"language"=>"en-EN",
+	"leave_a_message"=>addslashes("Leave a voice comment"),
+	"listen_a_message"=>addslashes("Listen the voice comment"),
+	"download_a_message"=>addslashes("download and share"),
+	"listen_a_message_or"=>addslashes("Listen an audio comment or"),
+	"info_after_message"=>addslashes("You can save your comment, if you want you can add some more text, but be careful to don't remove or change [voice_it]....[/voice_it] tags"),
+	);
+	
+	/**********************************************************/
+	/**************   HERE YOU CAN CUSTOMIZE  *****************/
+	/**********************************************************/
+	
+	You can add your changes, supported languages are  en-EN, it-IT, es-ES
+	
+Activation
+
+To have a working copy of the voice-it plugin you have to go to [Voice-it](http://www.voice-it.biz/homepage "Voice-it web site") , and register a new user using your website hostname.
+
+Be careful, the name of the host must bu without / and any http as without any file name.
+
+To help you here there are some examples:
+
+http://www.miosito.com/wordpress.php became -> www.miosito.com
+
+https://wordpress.test.foo/ became -> wordpress.test.foo 
+
+For version 2.0 and older
    1. download the plugin from [Voice-it plugin](http://www.voice-it.biz/wordpress "Voice-it plugin")
    2. unzip the file voice-it.zip into the folder (your_wordpress_dir)/wp-content/plugins/
    3. go into wordpress admin area menu plugin -> select voice-it and activate it
@@ -64,6 +114,14 @@ Screenshots,video and demo are available at [Voice-it](http://www.voice-it.biz/h
 == Changelog ==
 
 = 1.0 =
+* 2009-08-31
 * Released the firs stable version.
 = 2.0 =
+* 2009-09-02
 * checked compatibility with version 2.8.4
+= 3.0 =
+* 2009-09-11
+* added the possibility to add voice comments to all comments in your blog !!!!!
+* added support for en-EN, it-IT, es-ES
+* added the possibility to customize some labels
+
